@@ -1,5 +1,7 @@
-# Exclude large video file (too large for GitHub — 334 MB)
+# Exclude large video files (too large for GitHub)
 assets/videos/
+# Allow the small hero video (54 MB — fits in GitHub)
+!assets/videos/hero.mp4
 
 # System files
 .DS_Store
