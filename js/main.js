@@ -710,6 +710,30 @@ function initReveal() {
 }
 
 /* ===== INIT ===== */
+/* ===== HERO VIDEO ===== */
+function initHeroVideo() {
+  const video = document.querySelector('.hero-video');
+  if (!video) return;
+
+  // Respect user's reduced-motion preference — poster image shows instead
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    video.removeAttribute('autoplay');
+    video.pause();
+    return;
+  }
+
+  // Programmatically kick off playback — needed on some mobile browsers
+  // even when autoplay + muted + playsinline attributes are set
+  const playPromise = video.play();
+  if (playPromise !== undefined) {
+    playPromise.catch(() => {
+      // Autoplay blocked (e.g. Low Power Mode, Data Saver)
+      // Hide video so the CSS background-image poster shows cleanly
+      video.style.display = 'none';
+    });
+  }
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   initLangSwitcher();
   initNavbar();
@@ -717,4 +741,5 @@ document.addEventListener('DOMContentLoaded', () => {
   initGallery();
   initBookingForm();
   initReveal();
+  initHeroVideo();
 });

@@ -374,7 +374,8 @@ section { padding: 5rem 0; }
   justify-content: center;
   text-align: center;
   color: var(--white);
-  overflow: hidden;
+  /* clip-path instead of overflow:hidden — avoids iOS Safari video autoplay bug */
+  clip-path: inset(0);
 }
 
 .hero-media {
@@ -1121,4 +1122,6 @@ section { padding: 5rem 0; }
     transition-duration: 0.01ms !important;
   }
   html { scroll-behavior: auto; }
+  /* Hide video when user prefers reduced motion — poster image shows instead */
+  .hero-video { display: none; }
 }
