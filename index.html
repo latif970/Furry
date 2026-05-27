@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Tsakani Holidays — Authentic safari tours in Kenya with local guide Furry Ambari. Book Tsavo East, Tsavo West, Amboseli, Shimba Hills & Wasini Island directly.">
+  <meta name="keywords" content="Kenya safari, Tsavo East, Tsavo West, Amboseli, Shimba Hills, Wasini Island, Mombasa safari, local guide, Tsakani Holidays">
+  <meta property="og:title" content="Tsakani Holidays | Authentic Kenya Safari">
+  <meta property="og:description" content="Book your Kenya safari directly with Furry — your local guide from the coast. No agencies, fair prices, real experience.">
+  <meta property="og:image" content="assets/images/safari/safari-1.jpeg">
+  <title>Tsakani Holidays | Authentic Kenya Safari</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <img src="assets/images/family/safari-car.jpeg" alt="Tsakani Holidays" class="nav-logo-img">
+        <span>Tsakani Holidays</span>
+      </a>
+      <div class="nav-links" id="navLinks">
+        <a href="#tours" data-i18n="nav_tours">Tours</a>
+        <a href="#parks" data-i18n="nav_parks">Parks</a>
+        <a href="#about" data-i18n="nav_about">About</a>
+        <a href="#gallery" data-i18n="nav_gallery">Gallery</a>
+        <a href="#faq" data-i18n="nav_faq">FAQ</a>
+        <a href="#contact" class="btn-nav" data-i18n="nav_book">Book Now</a>
+      </div>
+      <div class="nav-actions">
+        <div class="lang-switcher">
+          <button class="lang-btn active" data-lang="en">EN</button>
+          <span class="lang-sep">|</span>
+          <button class="lang-btn" data-lang="nl">NL</button>
+          <span class="lang-sep">|</span>
+          <button class="lang-btn" data-lang="de">DE</button>
+        </div>
+        <button class="hamburger" id="hamburger" aria-label="Open menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-media">
+      <video autoplay muted loop playsinline class="hero-video">
+        <source src="assets/videos/safari-highlight.mp4" type="video/mp4">
+      </video>
+      <img src="assets/images/safari/safari-1.jpeg" alt="Kenya safari" class="hero-fallback">
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-eyebrow" data-i18n="hero_eyebrow">Kenyan Coast &mdash; Authentic Safaris</p>
+      <h1 data-i18n="hero_title">Experience the Wild Heart of Kenya</h1>
+      <p class="hero-sub" data-i18n="hero_sub">Book directly with Furry &mdash; your local guide. No agencies, no hidden fees. Just Kenya at its best.</p>
+      <div class="hero-cta">
+        <a href="#contact" class="btn-primary btn-large" data-i18n="hero_cta_book">Book Your Safari</a>
+        <a href="#tours" class="btn-outline btn-large" data-i18n="hero_cta_explore">Explore Tours</a>
+      </div>
+    </div>
+    <a href="#tours" class="hero-scroll" aria-label="Scroll down">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+    </a>
+  </section>
+
+  <!-- ===== USP BAR ===== -->
+  <section class="usp-bar">
+    <div class="container">
+      <div class="usp-grid">
+        <div class="usp-item">
+          <span class="usp-icon">&#127968;</span>
+          <span data-i18n="usp_local">100% Local Guide</span>
+        </div>
+        <div class="usp-item">
+          <span class="usp-icon">&#128172;</span>
+          <span data-i18n="usp_whatsapp">Book via WhatsApp</span>
+        </div>
+        <div class="usp-item">
+          <span class="usp-icon">&#128176;</span>
+          <span data-i18n="usp_price">Fair &amp; Transparent Pricing</span>
+        </div>
+        <div class="usp-item">
+          <span class="usp-icon">&#127807;</span>
+          <span data-i18n="usp_sustainable">Sustainable Tourism</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TOURS ===== -->
+  <section class="tours" id="tours">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag" data-i18n="tours_tag">Our Safari Tours</span>
+        <h2 data-i18n="tours_title">Top 5 Safari Experiences</h2>
+        <p data-i18n="tours_sub">Every tour is personally guided by Furry &mdash; a local expert who knows these parks like his own backyard.</p>
+      </div>
+      <div class="tours-grid">
+
+        <!-- Tour 1: Tsavo East -->
+        <article class="tour-card">
+          <div class="tour-img-wrap">
+            <img src="assets/images/safari/safari-1.jpeg" alt="Tsavo East National Park Kenya" loading="lazy">
+            <span class="tour-badge" data-i18n="badge_popular">Most Popular</span>
+          </div>
+          <div class="tour-body">
+            <h3 data-i18n="tour1_name">Tsavo East National Park</h3>
+            <p class="tour-tagline" data-i18n="tour1_tag">Home of Kenya&rsquo;s famous red elephants</p>
+            <p data-i18n="tour1_desc">Kenya&rsquo;s largest national park. Witness massive herds of red-dusted elephants, lions, leopards, and endless golden savanna &mdash; just 3 hours from Mombasa.</p>
+            <div class="tour-meta">
+              <span class="tour-meta-item"><span class="tour-meta-icon">&#9200;</span><span data-i18n="tour1_dur">1&ndash;2 days</span></span>
+              <span class="tour-meta-item"><span class="tour-meta-icon">&#128205;</span><span data-i18n="tour1_dist">~3h from Mombasa</span></span>
+            </div>
+            <a href="#contact" class="btn-primary btn-full" data-i18n="btn_book_tour">Book This Tour</a>
+          </div>
+        </article>
+
+        <!-- Tour 2: Tsavo West -->
+        <article class="tour-card">
+          <div class="tour-img-wrap">
+            <img src="assets/images/safari/safari-4.jpeg" alt="Tsavo West National Park Kenya" loading="lazy">
+          </div>
+          <div class="tour-body">
+            <h3 data-i18n="tour2_name">Tsavo West National Park</h3>
+            <p class="tour-tagline" data-i18n="tour2_tag">Dramatic landscapes &amp; crystal springs</p>
+            <p data-i18n="tour2_desc">Rugged volcanic hills, the famous Mzima Springs, black rhinos, and incredible wildlife in a dramatic and wild setting unlike any other.</p>
+            <div class="tour-meta">
+              <span class="tour-meta-item"><span class="tour-meta-icon">&#9200;</span><span data-i18n="tour2_dur">1&ndash;2 days</span></span>
+              <span class="tour-meta-item"><span class="tour-meta-icon">&#128205;</span><span data-i18n="tour2_dist">~3h from Mombasa</span></span>
+            </div>
+            <a href="#contact" class="btn-primary btn-full" data-i18n="btn_book_tour">Book This Tour</a>
+          </div>
+        </article>
+
+        <!-- Tour 3: Amboseli -->
+        <article class="tour-card">
+          <div class="tour-img-wrap">
+            <img src="assets/images/safari/safari-7.jpeg" alt="Amboseli National Park Kilimanjaro" loading="lazy">
+          </div>
+          <div class="tour-body">
+            <h3 data-i18n="tour3_name">Amboseli National Park</h3>
+            <p class="tour-tagline" data-i18n="tour3_tag">Elephants beneath Mt. Kilimanjaro</p>
+            <p data-i18n="tour3_desc">Watch giant elephant herds roam freely with the majestic, snow-capped peak of Kilimanjaro as your backdrop. A once-in-a-lifetime view you will never forget.</p>
+            <div class="tour-meta">
+              <span class="tour-meta-item"><span class="tour-meta-icon">&#9200;</span><span data-i18n="tour3_dur">1&ndash;2 days</span></span>
+              <span class="tour-meta-item"><span class="tour-meta-icon">&#128205;</span><span data-i18n="tour3_dist">~5h from Mombasa</span></span>
+            </div>
+            <a href="#contact" class="btn-primary btn-full" data-i18n="btn_book_tour">Book This Tour</a>
+          </div>
+        </article>
+
+        <!-- Tour 4: Shimba Hills -->
+        <article class="tour-card">
+          <div class="tour-img-wrap">
+            <img src="assets/images/safari/safari-10.jpeg" alt="Shimba Hills Reserve Kenya" loading="lazy">
+          </div>
+          <div class="tour-body">
+            <h3 data-i18n="tour4_name">Shimba Hills Reserve</h3>
+            <p class="tour-tagline" data-i18n="tour4_tag">Coastal forest with rare sable antelope</p>
+            <p data-i18n="tour4_desc">Only 30 minutes from Diani Beach &mdash; a hidden gem. Dense coastal rainforest, the rare sable antelope, elephants, and stunning Sheldrick waterfalls.</p>
+            <div class="tour-meta">
+              <span class="tour-meta-item"><span class="tour-meta-icon">&#9200;</span><span data-i18n="tour4_dur">Half or full day</span></span>
+              <span class="tour-meta-item"><span class="tour-meta-icon">&#128205;</span><span data-i18n="tour4_dist">30 min from Diani</span></span>
+            </div>
+            <a href="#contact" class="btn-primary btn-full" data-i18n="btn_book_tour">Book This Tour</a>
+          </div>
+        </article>
+
+        <!-- Tour 5: Wasini -->
+        <article class="tour-card">
+          <div class="tour-img-wrap">
+            <img src="assets/images/safari/safari-13.jpeg" alt="Wasini Island ocean safari dolphins" loading="lazy">
+          </div>
+          <div class="tour-body">
+            <h3 data-i18n="tour5_name">Wasini Island</h3>
+            <p class="tour-tagline" data-i18n="tour5_tag">Dolphins, snorkelling &amp; Swahili culture</p>
+            <p data-i18n="tour5_desc">A full-day dhow cruise to Wasini Island. Swim with dolphins, snorkel the Kisite Marine Park, and enjoy a fresh seafood lunch on a tropical island.</p>
+            <div class="tour-meta">
+              <span class="tour-meta-item"><span class="tour-meta-icon">&#9200;</span><span data-i18n="tour5_dur">Full day</span></span>
+              <span class="tour-meta-item"><span class="tour-meta-icon">&#128205;</span><span data-i18n="tour5_dist">South Coast</span></span>
+            </div>
+            <a href="#contact" class="btn-primary btn-full" data-i18n="btn_book_tour">Book This Tour</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PARKS COMPARISON ===== -->
+  <section class="parks" id="parks">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag" data-i18n="parks_tag">Compare</span>
+        <h2 data-i18n="parks_title">Which Park is Right for You?</h2>
+        <p data-i18n="parks_sub">Not sure which safari to choose? Here&rsquo;s a quick overview to help you decide.</p>
+      </div>
+      <div class="parks-table-wrap">
+        <table class="parks-table">
+          <thead>
+            <tr>
+              <th data-i18n="park_col_park">Park</th>
+              <th data-i18n="park_col_dist">Distance from Mombasa</th>
+              <th data-i18n="park_col_best">Best For</th>
+              <th data-i18n="park_col_dur">Duration</th>
+              <th data-i18n="park_col_highlight">Highlight</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Tsavo East</strong></td>
+              <td data-i18n="p1_dist">~230 km (3 hrs)</td>
+              <td data-i18n="p1_best">Wildlife variety</td>
+              <td data-i18n="p1_dur">1&ndash;2 days</td>
+              <td data-i18n="p1_hl">Red elephants &amp; lions</td>
+            </tr>
+            <tr>
+              <td><strong>Tsavo West</strong></td>
+              <td data-i18n="p2_dist">~250 km (3 hrs)</td>
+              <td data-i18n="p2_best">Scenery &amp; rhinos</td>
+              <td data-i18n="p2_dur">1&ndash;2 days</td>
+              <td data-i18n="p2_hl">Mzima Springs</td>
+            </tr>
+            <tr>
+              <td><strong>Amboseli</strong></td>
+              <td data-i18n="p3_dist">~340 km (5 hrs)</td>
+              <td data-i18n="p3_best">Photography</td>
+              <td data-i18n="p3_dur">1&ndash;2 days</td>
+              <td data-i18n="p3_hl">Kilimanjaro backdrop</td>
+            </tr>
+            <tr>
+              <td><strong>Shimba Hills</strong></td>
+              <td data-i18n="p4_dist">~60 km (30 min)</td>
+              <td data-i18n="p4_best">Short day trips</td>
+              <td data-i18n="p4_dur">Half&ndash;full day</td>
+              <td data-i18n="p4_hl">Rare sable antelope</td>
+            </tr>
+            <tr>
+              <td><strong>Wasini Island</strong></td>
+              <td data-i18n="p5_dist">~80 km south</td>
+              <td data-i18n="p5_best">Ocean &amp; culture</td>
+              <td data-i18n="p5_dur">Full day</td>
+              <td data-i18n="p5_hl">Dolphin swimming</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-images">
+          <div class="about-img-main">
+            <img src="assets/images/family/furry-1.jpeg" alt="Furry Ambari — local safari guide Tsakani Holidays" loading="lazy">
+          </div>
+          <div class="about-img-stack">
+            <img src="assets/images/family/furry-3.jpeg" alt="Furry on safari" loading="lazy">
+            <img src="assets/images/family/safari-car.jpeg" alt="Tsakani Holidays safari vehicle" loading="lazy">
+          </div>
+        </div>
+        <div class="about-content">
+          <span class="section-tag" data-i18n="about_tag">About Us</span>
+          <h2 data-i18n="about_title">Meet Furry &mdash; Your Guide from the Kenyan Coast</h2>
+          <p data-i18n="about_p1">I&rsquo;m Furry Ambari, a local safari guide and driver based on the beautiful Kenyan coast. I&rsquo;ve spent years exploring Kenya&rsquo;s greatest parks &mdash; from the vast red plains of Tsavo to the misty highlands of Amboseli.</p>
+          <p data-i18n="about_p2">Tsakani Holidays was born out of a simple idea: give tourists an authentic, personal experience while keeping tourism money in the local community. When you book with me directly, you get more value and your money supports a real Kenyan family.</p>
+          <p data-i18n="about_p3">I&rsquo;m a father, a guide, and a proud Kenyan. I want my children to have access to education, and I want my guests to leave with memories that last a lifetime.</p>
+          <div class="about-features">
+            <div class="about-feature">
+              <span class="feature-icon">&#127891;</span>
+              <span data-i18n="about_f1">Licensed professional guide</span>
+            </div>
+            <div class="about-feature">
+              <span class="feature-icon">&#128506;</span>
+              <span data-i18n="about_f2">10+ years exploring Kenya&rsquo;s parks</span>
+            </div>
+            <div class="about-feature">
+              <span class="feature-icon">&#129309;</span>
+              <span data-i18n="about_f3">Direct booking &mdash; no agencies</span>
+            </div>
+            <div class="about-feature">
+              <span class="feature-icon">&#127775;</span>
+              <span data-i18n="about_f4">English, Swahili &amp; some Dutch</span>
+            </div>
+          </div>
+          <a href="#contact" class="btn-primary" data-i18n="about_cta">Start Your Adventure</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALLERY ===== -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag" data-i18n="gallery_tag">Gallery</span>
+        <h2 data-i18n="gallery_title">Kenya Through Our Lens</h2>
+        <p data-i18n="gallery_sub">Real photos from real safaris with Furry and his guests.</p>
+      </div>
+      <div class="gallery-grid" id="galleryGrid">
+        <div class="gallery-item" data-index="0"><img src="assets/images/safari/safari-1.jpeg" alt="Kenya safari wildlife" loading="lazy"></div>
+        <div class="gallery-item" data-index="1"><img src="assets/images/safari/safari-2.jpeg" alt="Kenya safari wildlife" loading="lazy"></div>
+        <div class="gallery-item" data-index="2"><img src="assets/images/safari/safari-3.jpeg" alt="Kenya safari wildlife" loading="lazy"></div>
+        <div class="gallery-item" data-index="3"><img src="assets/images/safari/safari-5.jpeg" alt="Kenya safari wildlife" loading="lazy"></div>
+        <div class="gallery-item" data-index="4"><img src="assets/images/safari/safari-6.jpeg" alt="Kenya safari wildlife" loading="lazy"></div>
+        <div class="gallery-item" data-index="5"><img src="assets/images/safari/safari-8.jpeg" alt="Kenya safari wildlife" loading="lazy"></div>
+        <div class="gallery-item" data-index="6"><img src="assets/images/safari/safari-9.jpeg" alt="Kenya safari wildlife" loading="lazy"></div>
+        <div class="gallery-item" data-index="7"><img src="assets/images/safari/safari-11.jpeg" alt="Kenya safari wildlife" loading="lazy"></div>
+        <div class="gallery-item" data-index="8"><img src="assets/images/safari/safari-12.jpeg" alt="Kenya safari wildlife" loading="lazy"></div>
+        <div class="gallery-item" data-index="9"><img src="assets/images/safari/safari-14.jpeg" alt="Kenya safari wildlife" loading="lazy"></div>
+        <div class="gallery-item" data-index="10"><img src="assets/images/safari/safari-15.jpeg" alt="Kenya safari wildlife" loading="lazy"></div>
+        <div class="gallery-item" data-index="11"><img src="assets/images/family/furry-2.jpeg" alt="Furry your safari guide" loading="lazy"></div>
+      </div>
+    </div>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox" aria-modal="true" role="dialog" aria-label="Image viewer">
+      <button class="lightbox-close" id="lightboxClose" aria-label="Close">&times;</button>
+      <button class="lightbox-prev" id="lightboxPrev" aria-label="Previous">&#8249;</button>
+      <button class="lightbox-next" id="lightboxNext" aria-label="Next">&#8250;</button>
+      <div class="lightbox-inner">
+        <img src="" alt="" id="lightboxImg">
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== REVIEWS ===== -->
+  <section class="reviews" id="reviews">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag" data-i18n="reviews_tag">Testimonials</span>
+        <h2 data-i18n="reviews_title">What Our Guests Say</h2>
+      </div>
+      <div class="reviews-grid">
+        <div class="review-card">
+          <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p data-i18n="r1_text">&ldquo;Furry was an outstanding guide. He knew exactly where to find the lions and made us feel completely at ease. Booking directly was the best decision &mdash; no agency nonsense!&rdquo;</p>
+          <div class="review-author">
+            <strong data-i18n="r1_name">Sarah &amp; Tom</strong>
+            <span data-i18n="r1_loc">United Kingdom &mdash; Tsavo East</span>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p data-i18n="r2_text">&ldquo;One of the best days of our entire Kenya holiday. The Wasini dolphin trip was absolutely magical. Furry arranged everything perfectly and the price was very honest and fair.&rdquo;</p>
+          <div class="review-author">
+            <strong data-i18n="r2_name">Familie de Vries</strong>
+            <span data-i18n="r2_loc">Netherlands &mdash; Wasini Island</span>
+          </div>
+        </div>
+        <div class="review-card">
+          <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p data-i18n="r3_text">&ldquo;Amboseli with Kilimanjaro in the background... absolutely breathtaking. Furry was professional, friendly, and genuinely passionate about the wildlife and the land.&rdquo;</p>
+          <div class="review-author">
+            <strong data-i18n="r3_name">Michael R.</strong>
+            <span data-i18n="r3_loc">Germany &mdash; Amboseli</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag" data-i18n="faq_tag">FAQ</span>
+        <h2 data-i18n="faq_title">Practical Information</h2>
+        <p data-i18n="faq_sub">Everything you need to know before your safari.</p>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false" data-i18n="faq1_q">What is included in the tour price?</button>
+          <div class="faq-a" hidden>
+            <p data-i18n="faq1_a">All tours include private 4x4 transport, park entrance fees, bottled water, and an English-speaking guide (Furry). Overnight tours include accommodation options at affordable lodges near the parks.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false" data-i18n="faq2_q">How do I book a tour?</button>
+          <div class="faq-a" hidden>
+            <p data-i18n="faq2_a">You can book via WhatsApp (fastest) or use the booking form below. Furry responds personally within a few hours to confirm your tour and details.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false" data-i18n="faq3_q">Is it safe to travel in Kenya?</button>
+          <div class="faq-a" hidden>
+            <p data-i18n="faq3_a">Yes &mdash; the Kenyan coast and national parks are well-established, well-visited tourist destinations. Furry knows all the routes intimately and puts guest safety first. We recommend travel insurance for all international visitors.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false" data-i18n="faq4_q">What should I bring on safari?</button>
+          <div class="faq-a" hidden>
+            <p data-i18n="faq4_a">Light neutral-coloured clothing (khaki, beige), sunscreen, insect repellent, a hat, sunglasses, your camera, and a sense of adventure! Water and snacks are provided.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false" data-i18n="faq5_q">Can I book last minute?</button>
+          <div class="faq-a" hidden>
+            <p data-i18n="faq5_a">Yes! We often have availability for next-day tours. Send a WhatsApp message and Furry will do his very best to accommodate you.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false" data-i18n="faq6_q">Do you offer homestays?</button>
+          <div class="faq-a" hidden>
+            <p data-i18n="faq6_a">Homestays are coming soon! Tsakani Holidays will offer stays with local families on the Kenyan coast &mdash; a truly authentic cultural experience. Register your interest via the contact form below.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT & BOOKING ===== -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <span class="section-tag" data-i18n="contact_tag">Get in Touch</span>
+          <h2 data-i18n="contact_title">Book Your Safari Today</h2>
+          <p data-i18n="contact_sub">Fill in the form and Furry will contact you personally &mdash; usually within a few hours. Or reach out directly on WhatsApp.</p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <span class="contact-icon">&#128205;</span>
+              <div>
+                <strong data-i18n="c_loc_label">Location</strong>
+                <span data-i18n="c_loc">Mombasa, Diani, Mtwapa, Malindi &mdash; Kenyan Coast</span>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">&#128172;</span>
+              <div>
+                <strong data-i18n="c_wa_label">WhatsApp</strong>
+                <a href="https://wa.me/254700000000" class="contact-link" target="_blank" rel="noopener noreferrer">+254 700 000 000</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon">&#127760;</span>
+              <div>
+                <strong data-i18n="c_lang_label">Languages</strong>
+                <span data-i18n="c_lang">English, Swahili, some Dutch</span>
+              </div>
+            </div>
+          </div>
+          <a href="https://wa.me/254700000000" class="btn-whatsapp" target="_blank" rel="noopener noreferrer">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            <span data-i18n="btn_whatsapp">Chat on WhatsApp</span>
+          </a>
+        </div>
+
+        <div class="contact-form-wrap">
+          <form class="booking-form" id="bookingForm" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="fname" data-i18n="f_name">Full Name <span class="req">*</span></label>
+                <input type="text" id="fname" name="name" required autocomplete="name" placeholder="John Smith">
+                <span class="field-error" id="error-name"></span>
+              </div>
+              <div class="form-group">
+                <label for="femail" data-i18n="f_email">Email Address <span class="req">*</span></label>
+                <input type="email" id="femail" name="email" required autocomplete="email" placeholder="john@example.com">
+                <span class="field-error" id="error-email"></span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="fwhatsapp" data-i18n="f_whatsapp">WhatsApp Number</label>
+              <input type="tel" id="fwhatsapp" name="whatsapp" autocomplete="tel" placeholder="+31 6 12345678">
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="ftour" data-i18n="f_tour">Choose Tour <span class="req">*</span></label>
+                <select id="ftour" name="tour" required>
+                  <option value="" data-i18n="f_tour_sel">Select a tour&hellip;</option>
+                  <option value="Tsavo East" data-i18n="f_t1">Tsavo East</option>
+                  <option value="Tsavo West" data-i18n="f_t2">Tsavo West</option>
+                  <option value="Amboseli" data-i18n="f_t3">Amboseli</option>
+                  <option value="Shimba Hills" data-i18n="f_t4">Shimba Hills</option>
+                  <option value="Wasini Island" data-i18n="f_t5">Wasini Island</option>
+                  <option value="Custom / Multiple tours" data-i18n="f_t6">Custom / Multiple</option>
+                </select>
+                <span class="field-error" id="error-tour"></span>
+              </div>
+              <div class="form-group">
+                <label for="fdate" data-i18n="f_date">Preferred Date</label>
+                <input type="date" id="fdate" name="date">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="fpersons" data-i18n="f_persons">Number of Persons</label>
+              <input type="number" id="fpersons" name="persons" min="1" max="20" placeholder="2">
+            </div>
+            <div class="form-group">
+              <label for="fmessage" data-i18n="f_message">Message (optional)</label>
+              <textarea id="fmessage" name="message" rows="4" placeholder="Any questions, special requests, or interest in a homestay..."></textarea>
+            </div>
+            <button type="submit" class="btn-primary btn-full btn-large" data-i18n="f_submit">Send Booking Request</button>
+            <p class="form-note" data-i18n="f_note">* Clicking submit will open WhatsApp with your details pre-filled so Furry can reply quickly.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== HOMESTAY TEASER ===== -->
+  <section class="homestay">
+    <div class="container">
+      <div class="homestay-inner">
+        <div class="homestay-text">
+          <span class="section-tag section-tag--light" data-i18n="hs_tag">Coming Soon</span>
+          <h2 data-i18n="hs_title">Homestays on the Kenyan Coast</h2>
+          <p data-i18n="hs_desc">Soon you can stay with local families in Mtwapa, Malindi, or Diani. Share meals, experience daily coastal life, and connect with Kenya far beyond the parks. Cultural exchange, authentic and fair.</p>
+          <a href="#contact" class="btn-outline-light" data-i18n="hs_cta">Register Your Interest</a>
+        </div>
+        <div class="homestay-imgs">
+          <img src="assets/images/family/family-1.jpeg" alt="Local family on the Kenyan coast" loading="lazy">
+          <img src="assets/images/family/children-1.jpeg" alt="Children in Kenya" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3 class="footer-logo">Tsakani Holidays</h3>
+          <p data-i18n="ft_tagline">Authentic safari experiences from the Kenyan coast. Book direct, travel real.</p>
+          <p class="footer-langs" data-i18n="ft_langs">Available in: English &middot; Nederlands &middot; Deutsch</p>
+        </div>
+        <div class="footer-links">
+          <h4 data-i18n="ft_nav">Quick Links</h4>
+          <ul>
+            <li><a href="#tours" data-i18n="nav_tours">Tours</a></li>
+            <li><a href="#parks" data-i18n="nav_parks">Parks</a></li>
+            <li><a href="#about" data-i18n="nav_about">About</a></li>
+            <li><a href="#faq" data-i18n="nav_faq">FAQ</a></li>
+            <li><a href="#contact" data-i18n="nav_book">Book Now</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact-col">
+          <h4 data-i18n="ft_contact">Contact</h4>
+          <p>&#128205; Mombasa, Kenya</p>
+          <p>&#128172; <a href="https://wa.me/254700000000" target="_blank" rel="noopener noreferrer" data-i18n="ft_wa">WhatsApp Furry</a></p>
+          <p data-i18n="ft_owner">Owner &amp; Guide: Furry Ambari</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p data-i18n="ft_copy">&copy; 2025 Tsakani Holidays &mdash; All rights reserved.</p>
+        <p class="footer-impact" data-i18n="ft_impact">&#127757; Built with impact &mdash; supporting local education in Kenya</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== FLOATING WHATSAPP BUTTON ===== -->
+  <a href="https://wa.me/254700000000" class="wa-float" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="white" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

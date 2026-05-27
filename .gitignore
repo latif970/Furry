@@ -1,0 +1,9 @@
+# Exclude large video file (too large for GitHub — 334 MB)
+assets/videos/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Dev files
+.claude/
