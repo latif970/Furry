@@ -617,7 +617,7 @@ function initBookingForm() {
   const form = document.getElementById('bookingForm');
   if (!form) return;
 
-  const WHATSAPP_NUMBER = '254700000000';
+  const WHATSAPP_NUMBER = '+31 (0)6 53 72 88 82';
 
   function showError(fieldId, key) {
     const el = document.getElementById('error-' + fieldId);
